@@ -71,7 +71,8 @@ This application is developed for the **Ministry of Fisheries, Animal Husbandry 
 
 1. **Clone the repository**
 ```bash
-cd "/Users/0mrajput/Desktop/shi problem statement project"
+git clone https://github.com/omrajputt369-byte/animal-health-management-system.git
+cd animal-health-management-system
 ```
 
 2. **Install Backend Dependencies**
