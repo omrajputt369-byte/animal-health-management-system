@@ -1,0 +1,82 @@
+[
+    {
+        "itemId": "c1",
+        "title": "Farm Registration Certificate",
+        "titleHi": "फार्म पंजीकरण प्रमाण पत्र",
+        "category": "documentation",
+        "description": "Obtain official farm registration from local authorities",
+        "descriptionHi": "स्थानीय अधिकारियों से आधिकारिक फार्म पंजीकरण प्राप्त करें"
+    },
+    {
+        "itemId": "c2",
+        "title": "Cattle Shed Construction Standards",
+        "titleHi": "पशु शाला निर्माण मानक",
+        "category": "infrastructure",
+        "description": "Shed meets minimum space and ventilation requirements",
+        "descriptionHi": "शेड न्यूनतम स्थान और वेंटिलेशन आवश्यकताओं को पूरा करता है"
+    },
+    {
+        "itemId": "c3",
+        "title": "Vaccination Records Maintained",
+        "titleHi": "टीकाकरण रिकॉर्ड बनाए रखा",
+        "category": "health",
+        "description": "All cattle vaccination records are up to date",
+        "descriptionHi": "सभी पशु टीकाकरण रिकॉर्ड अद्यतित हैं"
+    },
+    {
+        "itemId": "c4",
+        "title": "Veterinary Visit Log",
+        "titleHi": "पशु चिकित्सक विज़िट लॉग",
+        "category": "documentation",
+        "description": "Regular veterinary visits are documented",
+        "descriptionHi": "नियमित पशु चिकित्सा विज़िट प्रलेखित हैं"
+    },
+    {
+        "itemId": "c5",
+        "title": "Feed Storage Facility",
+        "titleHi": "चारा भंडारण सुविधा",
+        "category": "infrastructure",
+        "description": "Proper feed storage to prevent contamination",
+        "descriptionHi": "संदूषण को रोकने के लिए उचित चारा भंडारण"
+    },
+    {
+        "itemId": "c6",
+        "title": "Water Quality Testing",
+        "titleHi": "पानी की गुणवत्ता परीक्षण",
+        "category": "health",
+        "description": "Regular water quality testing conducted",
+        "descriptionHi": "नियमित पानी की गुणवत्ता परीक्षण किया गया"
+    },
+    {
+        "itemId": "c7",
+        "title": "Biosecurity Training Completed",
+        "titleHi": "जैव सुरक्षा प्रशिक्षण पूर्ण",
+        "category": "training",
+        "description": "Farm workers completed biosecurity training",
+        "descriptionHi": "फार्म श्रमिकों ने जैव सुरक्षा प्रशिक्षण पूरा किया"
+    },
+    {
+        "itemId": "c8",
+        "title": "Quarantine Area Setup",
+        "titleHi": "क्वारंटाइन क्षेत्र सेटअप",
+        "category": "infrastructure",
+        "description": "Separate quarantine area for new/sick cattle",
+        "descriptionHi": "नए/बीमार पशुओं के लिए अलग क्वारंटाइन क्षेत्र"
+    },
+    {
+        "itemId": "c9",
+        "title": "Waste Disposal System",
+        "titleHi": "कचरा निपटान प्रणाली",
+        "category": "practices",
+        "description": "Proper waste disposal system in place",
+        "descriptionHi": "उचित कचरा निपटान प्रणाली मौजूद है"
+    },
+    {
+        "itemId": "c10",
+        "title": "Emergency Contact List",
+        "titleHi": "आपातकालीन संपर्क सूची",
+        "category": "documentation",
+        "description": "Veterinary and emergency contacts displayed",
+        "descriptionHi": "पशु चिकित्सा और आपातकालीन संपर्क प्रदर्शित"
+    }
+]

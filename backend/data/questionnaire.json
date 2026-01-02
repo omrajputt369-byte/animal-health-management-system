@@ -1,0 +1,224 @@
+[
+    {
+        "questionId": "q1",
+        "question": "Does your farm have a dedicated disinfection area at the entrance? / क्या आपके फार्म के प्रवेश द्वार पर एक समर्पित कीटाणुशोधन क्षेत्र है?",
+        "questionHi": "क्या आपके फार्म के प्रवेश द्वार पर एक समर्पित कीटाणुशोधन क्षेत्र है",
+        "type": "boolean",
+        "category": "infrastructure",
+        "riskMapping": {
+            "yes": "low",
+            "no": "high"
+        }
+    },
+    {
+        "questionId": "q2",
+        "question": "Do you have a separate quarantine area for new cattle? / क्या नए पशुओं के लिए अलग क्वारंटाइन क्षेत्र है?",
+        "questionHi": "क्या नए पशुओं के लिए अलग क्वारंटाइन क्षेत्र है?",
+        "type": "boolean",
+        "category": "infrastructure",
+        "riskMapping": {
+            "yes": "low",
+            "no": "critical"
+        }
+    },
+    {
+        "questionId": "q3",
+        "question": "How frequently do you clean the cattle shed? / आप कितनी बार पशु शाला को साफ करते हैं?",
+        "questionHi": "आप कितनी बार पशु शाला को साफ करते हैं?",
+        "type": "choice",
+        "category": "practices",
+        "options": [
+            {
+                "value": "daily",
+                "label": "Daily / दैनिक",
+                "labelHi": "दैनिक"
+            },
+            {
+                "value": "weekly",
+                "label": "Weekly / साप्ताहिक",
+                "labelHi": "साप्ताहिक"
+            },
+            {
+                "value": "monthly",
+                "label": "Monthly / मासिक",
+                "labelHi": "मासिक"
+            },
+            {
+                "value": "rarely",
+                "label": "Rarely / कभी-कभार",
+                "labelHi": "कभी-कभार"
+            }
+        ],
+        "riskMapping": {
+            "daily": "low",
+            "weekly": "medium",
+            "monthly": "high",
+            "rarely": "critical"
+        }
+    },
+    {
+        "questionId": "q4",
+        "question": "Do you maintain a visitor log? / क्या आप आगंतुक लॉग बनाए रखते हैं?",
+        "questionHi": "क्या आप आगंतुक लॉग बनाए रखते हैं?",
+        "type": "boolean",
+        "category": "practices",
+        "riskMapping": {
+            "yes": "low",
+            "no": "high"
+        }
+    },
+    {
+        "questionId": "q5",
+        "question": "Are your cattle vaccinated as per schedule? / क्या आपके पशुओं का समय पर टीकाकरण हो रहा है?",
+        "questionHi": "क्या आपके पशुओं का समय पर टीकाकरण हो रहा है?",
+        "type": "boolean",
+        "category": "monitoring",
+        "riskMapping": {
+            "yes": "low",
+            "no": "critical"
+        }
+    },
+    {
+        "questionId": "q6",
+        "question": "How do you dispose of dead cattle? / मृत पशुओं का निपटान कैसे करते हैं?",
+        "questionHi": "मृत पशुओं का निपटान कैसे करते हैं?",
+        "type": "choice",
+        "category": "practices",
+        "options": [
+            {
+                "value": "burial",
+                "label": "Deep burial / गहरी दफनाना",
+                "labelHi": "गहरी दफनाना"
+            },
+            {
+                "value": "burning",
+                "label": "Incineration / जलाना",
+                "labelHi": "जलाना"
+            },
+            {
+                "value": "biogas",
+                "label": "Biogas pit / बायोगैस गड्ढा",
+                "labelHi": "बायोगैस गड्ढा"
+            },
+            {
+                "value": "dump",
+                "label": "Open dumping / खुले में फेंकना",
+                "labelHi": "खुले में फेंकना"
+            }
+        ],
+        "riskMapping": {
+            "burial": "low",
+            "burning": "low",
+            "biogas": "low",
+            "dump": "critical"
+        }
+    },
+    {
+        "questionId": "q7",
+        "question": "Is your cattle shed protected from stray animals? / क्या आपकी पशु शाला आवारा जानवरों से सुरक्षित है?",
+        "questionHi": "क्या आपकी पशु शाला आवारा जानवरों से सुरक्षित है?",
+        "type": "boolean",
+        "category": "infrastructure",
+        "riskMapping": {
+            "yes": "low",
+            "no": "high"
+        }
+    },
+    {
+        "questionId": "q8",
+        "question": "Do you monitor cattle health daily? / क्या आप दैनिक रूप से पशुओं के स्वास्थ्य की निगरानी करते हैं?",
+        "questionHi": "क्या आप दैनिक रूप से पशुओं के स्वास्थ्य की निगरानी करते हैं?",
+        "type": "boolean",
+        "category": "monitoring",
+        "riskMapping": {
+            "yes": "low",
+            "no": "high"
+        }
+    },
+    {
+        "questionId": "q9",
+        "question": "Distance from the nearest cattle farm? / निकटतम पशु फार्म से दूरी?",
+        "questionHi": "निकटतम पशु फार्म से दूरी?",
+        "type": "choice",
+        "category": "location",
+        "options": [
+            {
+                "value": "far",
+                "label": "> 2 km",
+                "labelHi": "2 किमी से अधिक"
+            },
+            {
+                "value": "medium",
+                "label": "500m - 2km",
+                "labelHi": "500 मी - 2 किमी"
+            },
+            {
+                "value": "close",
+                "label": "< 500m",
+                "labelHi": "500 मी से कम"
+            }
+        ],
+        "riskMapping": {
+            "far": "low",
+            "medium": "medium",
+            "close": "high"
+        }
+    },
+    {
+        "questionId": "q10",
+        "question": "Do you use separate equipment for each cattle? / क्या आप प्रत्येक पशु के लिए अलग उपकरण का उपयोग करते हैं?",
+        "questionHi": "क्या आप प्रत्येक पशु के लिए अलग उपकरण का उपयोग करते हैं?",
+        "type": "boolean",
+        "category": "practices",
+        "riskMapping": {
+            "yes": "low",
+            "no": "medium"
+        }
+    },
+    {
+        "questionId": "q11",
+        "question": "Do visitors wear protective clothing before entering? / क्या आगंतुक प्रवेश करने से पहले सुरक्षात्मक कपड़े पहनते हैं?",
+        "questionHi": "क्या आगंतुक प्रवेश करने से पहले सुरक्षात्मक कपड़े पहनते हैं?",
+        "type": "boolean",
+        "category": "practices",
+        "riskMapping": {
+            "yes": "low",
+            "no": "high"
+        }
+    },
+    {
+        "questionId": "q12",
+        "question": "How often do you check for symptoms of disease in cattle? / आप कितनी बार पशुओं में रोग के लक्षणों की जांच करते हैं?",
+        "questionHi": "आप कितनी बार पशुओं में रोग के लक्षणों की जांच करते हैं?",
+        "type": "choice",
+        "category": "monitoring",
+        "options": [
+            {
+                "value": "daily",
+                "label": "Daily / दैनिक",
+                "labelHi": "दैनिक"
+            },
+            {
+                "value": "weekly",
+                "label": "Weekly / साप्ताहिक",
+                "labelHi": "साप्ताहिक"
+            },
+            {
+                "value": "monthly",
+                "label": "Monthly / मासिक",
+                "labelHi": "मासिक"
+            },
+            {
+                "value": "never",
+                "label": "Never / कभी नहीं",
+                "labelHi": "कभी नहीं"
+            }
+        ],
+        "riskMapping": {
+            "daily": "low",
+            "weekly": "medium",
+            "monthly": "high",
+            "never": "critical"
+        }
+    }
+]

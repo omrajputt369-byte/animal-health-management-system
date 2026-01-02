@@ -1,0 +1,52 @@
+{
+  "name": "farm-biosecurity-backend",
+  "version": "1.0.0",
+  "description": "Backend API for Digital Farm Management Portal",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js",
+    "seed": "node scripts/seedDatabase.js",
+    "test": "jest --coverage",
+    "create-indexes": "node scripts/createIndexes.js"
+  },
+  "keywords": [
+    "farm",
+    "biosecurity",
+    "livestock",
+    "agriculture",
+    "india"
+  ],
+  "author": "Farm Biosecurity Team",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cloudinary": "^1.41.0",
+    "compression": "^1.7.4",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "express-mongo-sanitize": "^2.2.0",
+    "express-rate-limit": "^7.0.1",
+    "firebase-admin": "^11.11.0",
+    "helmet": "^7.0.0",
+    "joi": "^17.10.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongodb-memory-server": "^11.0.1",
+    "mongoose": "^7.6.3",
+    "morgan": "^1.10.0",
+    "multer": "^1.4.5-lts.1",
+    "node-cache": "^5.1.2",
+    "nodemailer": "^6.9.6",
+    "xss-clean": "^0.1.4"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "nodemon": "^3.0.1",
+    "supertest": "^6.3.3"
+  },
+  "engines": {
+    "node": ">=16.0.0",
+    "npm": ">=8.0.0"
+  }
+}

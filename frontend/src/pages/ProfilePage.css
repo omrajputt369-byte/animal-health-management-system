@@ -1,0 +1,25 @@
+.info-grid {
+    display: grid;
+    gap: var(--spacing-lg);
+}
+
+.info-item {
+    padding-bottom: var(--spacing-md);
+    border-bottom: 1px solid var(--gray-200);
+}
+
+.info-item:last-child {
+    border-bottom: none;
+}
+
+.info-label {
+    font-size: var(--text-sm);
+    color: var(--gray-600);
+    margin-bottom: var(--spacing-xs);
+}
+
+.info-value {
+    font-size: var(--text-base);
+    color: var(--gray-900);
+    font-weight: 500;
+}

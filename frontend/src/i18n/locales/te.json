@@ -1,0 +1,101 @@
+{
+    "app": {
+        "name": "ఫార్మ్ బయోసెక్యూరిటీ పోర్టల్",
+        "tagline": "మీ పశువులను రక్షించడం, మీ వ్యవసాయాన్ని శక్తివంతం చేయడం"
+    },
+    "nav": {
+        "home": "హోమ్",
+        "dashboard": "డ్యాష్‌బోర్డ్",
+        "riskAssessment": "రిస్క్ అసెస్‌మెంట్",
+        "alerts": "వ్యాధి హెచ్చరికలు",
+        "records": "రికార్డులు",
+        "training": "శిక్షణ",
+        "profile": "ప్రొఫైల్",
+        "logout": "లాగౌట్"
+    },
+    "auth": {
+        "login": "లాగిన్",
+        "register": "నమోదు",
+        "phone": "ఫోన్ నంబర్",
+        "password": "పాస్‌వర్డ్",
+        "name": "పూర్తి పేరు",
+        "email": "ఇమెయిల్ (ఐచ్ఛికం)",
+        "loginButton": "సైన్ ఇన్",
+        "registerButton": "ఖాతా సృష్టించండి",
+        "noAccount": "ఖాతా లేదా?",
+        "haveAccount": "ఇప్పటికే ఖాతా ఉందా?",
+        "phonePlaceholder": "10-అంకెల మొబైల్ నంబర్ నమోదు చేయండి",
+        "passwordPlaceholder": "పాస్‌వర్డ్ నమోదు చేయండి",
+        "namePlaceholder": "మీ పూర్తి పేరు నమోదు చేయండి"
+    },
+    "farm": {
+        "farmName": "వ్యవసాయ పేరు",
+        "farmSize": "వ్యవసాయ పరిమాణం (ఎకరాలు)",
+        "livestockType": "పశువుల రకం",
+        "cow": "ఆవు",
+        "buffalo": "గేదె",
+        "both": "రెండూ",
+        "location": "స్థానం",
+        "address": "చిరునామా",
+        "district": "జిల్లా",
+        "state": "రాష్ట్రం",
+        "pincode": "పిన్‌కోడ్"
+    },
+    "dashboard": {
+        "welcome": "స్వాగతం",
+        "biosecurityScore": "బయోసెక్యూరిటీ స్కోర్",
+        "complianceScore": "కంప్లైయన్స్ స్కోర్",
+        "activeAlerts": "క్రియాశీల హెచ్చరికలు",
+        "recentActivity": "ఇటీవలి కార్యాచరణ",
+        "quickActions": "త్వరిత చర్యలు",
+        "takeAssessment": "రిస్క్ అసెస్‌మెంట్ తీసుకోండి",
+        "viewAlerts": "వ్యాధి హెచ్చరికలు చూడండి",
+        "addRecord": "వ్యవసాయ రికార్డు జోడించండి"
+    },
+    "assessment": {
+        "title": "రిస్క్ అసెస్‌మెంట్",
+        "question": "ప్రశ్న",
+        "of": "లో",
+        "yes": "అవును",
+        "no": "కాదు",
+        "next": "తదుపరి",
+        "previous": "మునుపటి",
+        "submit": "అసెస్‌మెంట్ సమర్పించండి",
+        "results": "అసెస్‌మెంట్ ఫలితాలు",
+        "riskScore": "రిస్క్ స్కోర్",
+        "riskLevel": "రిస్క్ స్థాయి",
+        "low": "తక్కువ",
+        "medium": "మధ్యస్థ",
+        "high": "అధిక",
+        "critical": "క్లిష్టమైన",
+        "recommendations": "సిఫార్సులు",
+        "priority": "ప్రాధాన్యత",
+        "immediate": "తక్షణ",
+        "implemented": "అమలు చేసినట్లు గుర్తించండి"
+    },
+    "alerts": {
+        "title": "వ్యాధి హెచ్చరికలు",
+        "nearbyAlerts": "మీ దగ్గర హెచ్చరికలు",
+        "distance": "దూరం",
+        "km": "కి.మీ",
+        "severity": "తీవ్రత",
+        "affectedSpecies": "ప్రభావిత జాతులు",
+        "actionRequired": "అవసరమైన చర్యలు",
+        "viewDetails": "వివరాలు చూడండి",
+        "noAlerts": "మీ ప్రాంతంలో క్రియాశీల వ్యాధి హెచ్చరికలు లేవు"
+    },
+    "common": {
+        "loading": "లోడ్ అవుతోంది...",
+        "error": "లోపం",
+        "success": "విజయం",
+        "save": "సేవ్",
+        "cancel": "రద్దు",
+        "delete": "తొలగించు",
+        "edit": "సవరించు",
+        "view": "చూడు",
+        "close": "మూసివేయి",
+        "search": "వెతకండి",
+        "filter": "ఫిల్టర్",
+        "next": "తదుపరి"
+    }
+}

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#16a34a" />
+    <meta
+      name="description"
+      content="Digital Farm Biosecurity Management Portal for Pig and Poultry Farms"
+    />
+    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    
+    <!-- Preconnect to API -->
+    <link rel="preconnect" href="%REACT_APP_API_URL%" />
+    
+    <title>Farm Biosecurity Portal</title>
+    
+    <!-- Primary Meta Tags -->
+    <meta name="title" content="Farm Biosecurity Portal">
+    <meta name="description" content="Comprehensive biosecurity management for Indian pig and poultry farms">
+    
+    <!-- Mobile -->
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    
+    <style>
+      /* Loading screen */
+      #root-loader {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background: #f9fafb;
+      }
+      
+      .loader-spinner {
+        width: 50px;
+        height: 50px;
+        border: 4px solid #e5e7eb;
+        border-top-color: #16a34a;
+        border-radius: 50%;
+        animation: spin 1s linear infinite;
+      }
+      
+      .loader-text {
+        margin-top: 20px;
+        color: #16a34a;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', sans-serif;
+        font-size: 16px;
+      }
+      
+      @keyframes spin {
+        to { transform: rotate(360deg); }
+      }
+    </style>
+  </head>
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root">
+      <div id="root-loader">
+        <div class="loader-spinner"></div>
+        <div class="loader-text">Loading Farm Portal...</div>
+      </div>
+    </div>
+  </body>
+</html>

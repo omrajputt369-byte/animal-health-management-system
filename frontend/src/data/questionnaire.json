@@ -1,0 +1,116 @@
+[
+    {
+        "questionId": "q1",
+        "questionEn": "Does your farm have a dedicated disinfection area at the entrance?",
+        "questionHi": "क्या आपके फार्म के प्रवेश द्वार पर एक समर्पित कीटाणुशोधन क्षेत्र है?",
+        "type": "boolean",
+        "category": "infrastructure",
+        "riskMapping": {
+            "yes": "low",
+            "no": "high"
+        }
+    },
+    {
+        "questionId": "q2",
+        "questionEn": "Do you have a separate quarantine area for new cattle?",
+        "questionHi": "क्या नए पशुओं के लिए अलग क्वारंटाइन क्षेत्र है?",
+        "type": "boolean",
+        "category": "infrastructure",
+        "riskMapping": {
+            "yes": "low",
+            "no": "critical"
+        }
+    },
+    {
+        "questionId": "q3",
+        "questionEn": "How frequently do you clean the cattle shed?",
+        "questionHi": "आप कितनी बार पशु शाला को साफ करते हैं?",
+        "type": "choice",
+        "category": "practices",
+        "options": [
+            {
+                "value": "daily",
+                "labelEn": "Daily",
+                "labelHi": "दैनिक"
+            },
+            {
+                "value": "weekly",
+                "labelEn": "Weekly",
+                "labelHi": "साप्ताहिक"
+            },
+            {
+                "value": "monthly",
+                "labelEn": "Monthly",
+                "labelHi": "मासिक"
+            },
+            {
+                "value": "rarely",
+                "labelEn": "Rarely",
+                "labelHi": "कभी-कभार"
+            }
+        ],
+        "riskMapping": {
+            "daily": "low",
+            "weekly": "medium",
+            "monthly": "high",
+            "rarely": "critical"
+        }
+    },
+    {
+        "questionId": "q4",
+        "questionEn": "Do you maintain a visitor log?",
+        "questionHi": "क्या आप आगंतुक लॉग बनाए रखते हैं?",
+        "type": "boolean",
+        "category": "practices",
+        "riskMapping": {
+            "yes": "low",
+            "no": "high"
+        }
+    },
+    {
+        "questionId": "q5",
+        "questionEn": "Are your cattle vaccinated as per schedule?",
+        "questionHi": "क्या आपके पशुओं का समय पर टीकाकरण हो रहा है?",
+        "type": "boolean",
+        "category": "monitoring",
+        "riskMapping": {
+            "yes": "low",
+            "no": "critical"
+        }
+    },
+    {
+        "questionId": "q6",
+        "questionEn": "How do you dispose of dead cattle?",
+        "questionHi": "मृत पशुओं का निपटान कैसे करते हैं?",
+        "type": "choice",
+        "category": "practices",
+        "options": [
+            {
+                "value": "burial",
+                "labelEn": "Deep burial",
+                "labelHi": "गहरी दफनाना"
+            },
+            {
+                "value": "burning",
+                "labelEn": "Incineration",
+                "labelHi": "जलाना"
+            },
+            {
+                "value": "biogas",
+                "labelEn": "Biogas pit",
+                "labelHi": "बायोगैस गड्ढा"
+            },
+            {
+                "value": "dump",
+                "labelEn": "Open dumping",
+                "labelHi": "खुले में फेंकना"
+            }
+        ],
+        "riskMapping": {
+            "burial": "low",
+            "burning": "low",
+            "biogas": "low",
+            "dump": "critical"
+        }
+    }
+]

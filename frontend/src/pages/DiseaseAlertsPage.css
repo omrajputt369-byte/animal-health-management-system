@@ -1,0 +1,121 @@
+.alerts-page {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.alerts-page h2 {
+    font-size: var(--text-3xl);
+    margin-bottom: var(--spacing-xl);
+}
+
+.alerts-list {
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-lg);
+}
+
+.alert-card {
+    border-left: 4px solid;
+    transition: transform 0.2s;
+}
+
+.alert-card:hover {
+    transform: translateY(-2px);
+    box-shadow: var(--shadow-lg);
+}
+
+.alert-card.alert-danger {
+    border-color: var(--danger);
+    background: #fef2f2;
+}
+
+.alert-card.alert-warning {
+    border-color: var(--warning);
+    background: #fffbeb;
+}
+
+.alert-card.alert-info {
+    border-color: var(--info);
+    background: #eff6ff;
+}
+
+.alert-card.alert-success {
+    border-color: var(--success);
+    background: #f0fdf4;
+}
+
+.alert-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: var(--spacing-md);
+}
+
+.alert-distance {
+    font-size: var(--text-sm);
+    color: var(--gray-600);
+    font-weight: 600;
+}
+
+.alert-disease {
+    font-size: var(--text-2xl);
+    color: var(--gray-900);
+    margin-bottom: var(--spacing-md);
+}
+
+.alert-info {
+    background: white;
+    padding: var(--spacing-md);
+    border-radius: var(--radius-md);
+    margin-bottom: var(--spacing-md);
+}
+
+.info-row {
+    display: flex;
+    justify-content: space-between;
+    padding: var(--spacing-sm) 0;
+    border-bottom: 1px solid var(--gray-200);
+}
+
+.info-row:last-child {
+    border-bottom: none;
+}
+
+.info-label {
+    color: var(--gray-600);
+    font-size: var(--text-sm);
+}
+
+.info-value {
+    font-weight: 600;
+    color: var(--gray-900);
+    font-size: var(--text-sm);
+}
+
+.alert-description {
+    margin-bottom: var(--spacing-md);
+    line-height: 1.6;
+    color: var(--gray-700);
+}
+
+.actions-required {
+    background: white;
+    padding: var(--spacing-md);
+    border-radius: var(--radius-md);
+}
+
+.actions-required h4 {
+    font-size: var(--text-base);
+    margin-bottom: var(--spacing-sm);
+    color: var(--gray-900);
+}
+
+.actions-required ul {
+    margin: 0;
+    padding-left: var(--spacing-lg);
+}
+
+.actions-required li {
+    margin-bottom: var(--spacing-xs);
+    line-height: 1.5;
+}
