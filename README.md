@@ -1,4 +1,4 @@
-# Digital Farm Management Portal for Pig & Poultry Biosecurity
+# Digital Farm Management Portal for Cattle & Poultry Biosecurity
 
 A comprehensive Progressive Web App (PWA) for implementing biosecurity measures in pig and poultry farms across India.
 
